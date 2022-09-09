@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="default.aspx" title="Home" roles="*"  description="Sitemap example's home page">
+        <siteMapNode url="~/Account/Register.aspx"  title="Add User" roles="admin"  description="Add User">           
+            <siteMapNode url="~/Account/ManageUsers.aspx"  title="Manage User" roles="admin"  description="Manage User" />
+        </siteMapNode>
+        <siteMapNode url="~/Account/ManageRoles.aspx" title="Add Roles"  roles="admin"     description="Add Roles" >
+            <siteMapNode url="~/Account/AssignRoles.aspx"  title="Assign Roles" roles="admin"  description="Assign Roles" />
+        </siteMapNode>
+		<siteMapNode url="~/Account/ManageMessages.aspx" title="Manage Messages"  roles="admin"     description="Manage Messages" >
+		</siteMapNode>
+        <siteMapNode url="~/Business/SQ.aspx" title="SQ"  roles="admin"     description="SQ" >
+        </siteMapNode>
+        <siteMapNode url="~/Business/PriceList.aspx" title="Last Prices Report"  roles="admin"     description="Last Prices Report" >
+        </siteMapNode>
+        <siteMapNode url="~/Business/OpenSQ.aspx" title="Open Sales Quotation"  roles="admin"     description="Open Sales Quotation" >
+        </siteMapNode>
+		<siteMapNode url="~/Business/OpenSQBySalesPerson.aspx" title="Open Sales Quotation By Sales Person"  roles="admin"     description="Open Sales Quotation By Sales Person" >
+		</siteMapNode>
+    <siteMapNode url="~/Business/SalesReport.aspx" title="Sales Report"  roles="admin"     description="Sales Report" >
+    </siteMapNode>
+		<siteMapNode url="~/Business/UploadedSQ.aspx" title="Uploaded SQ"  roles="admin"     description="Uploaded SQ" >
+		</siteMapNode>		
+	</siteMapNode>
+    
+</siteMap>
